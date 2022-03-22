@@ -1,0 +1,6 @@
+[[redirects]]
+  from = "/"
+  to = "https://theflyingrat.com"
+  status = 301
+  force = true 
+  headers = {X-From = "CDN"}
