@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;300&display=swap');
+body { background: #222; background-image: url("/assets/img/background/city.jpg"); background-size: auto; background-blend-mode: overlay; color: #ccc; text-align: center; margin-top: 15px; font-family: "Karla", Helvetica; -ms-overflow-style: none; scrollbar-width: none;}
+button {
+    color: #ccc;
+    width: min(60%, 750px);
+    font-size: 1.2em;
+}
+#content > * {
+    border-radius: 0px;
+    margin-top: 20px;
+}
+#content > *:visited, #content > *:focus {
+    color: #ccc;
+    border-color: #ccc;
+}
+#content > *:hover {
+    color: inherit;
+    border-color: inherit;
+    opacity: 68% !important;
+}
+.noselect {
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none;
+    -khtml-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none;
+    user-select: none;                              
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+.bodyContent {
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+}
+#content {
+    margin-top: 3%;
+}
+#headerContainer {
+    width: fit-content; margin-top:5px; line-height: 2px;
+}
+@media only screen and (min-width: 601px){
+    #header > h1 { font-size: 6rem}
+}
+@media only screen and (max-width: 600px){
+    #header > h1 { font-size: 4rem}
+}
