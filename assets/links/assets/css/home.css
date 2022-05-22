@@ -14,7 +14,7 @@ button {
     border-color: #ccc;
 }
 #content > *:focus {
-    color: inherit;
+    color: #ccc;
     border-color: inherit;
     opacity: 68% !important;
 }
