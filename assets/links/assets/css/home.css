@@ -13,6 +13,11 @@ button {
     color: #ccc;
     border-color: #ccc;
 }
+#content > *:focus {
+    color: inherit;
+    border-color: inherit;
+    opacity: 68% !important;
+}
 #content > *:hover {
     color: inherit;
     border-color: inherit;
