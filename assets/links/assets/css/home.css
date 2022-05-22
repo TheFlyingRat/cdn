@@ -9,7 +9,7 @@ button {
     border-radius: 0px;
     margin-top: 20px;
 }
-#content > *:visited, #content > *:focus {
+#content > *:visited {
     color: #ccc;
     border-color: #ccc;
 }
