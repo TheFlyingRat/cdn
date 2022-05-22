@@ -1,12 +1,6 @@
 # www.robotstxt.org/
 
-# Allow crawling of select content
+# NO CRAWLING ALLOWED
 User-agent: *
-Disallow: /error
-Disallow: /testing
-Disallow: /pre
-Disallow: /boilerplate
-Disallow: /assets
-Allow: /home
-Allow: /
+Disallow: *
 
