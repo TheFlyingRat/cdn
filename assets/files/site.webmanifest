@@ -1,0 +1,20 @@
+{
+    "name": "PWA",
+    "short_name": "PWA",
+    "lang": "en",
+    "theme_color": "#000000",
+    "display": "fullscreen",
+    "background_color": "#000000",
+    "description": "Site has been PWA-ified by TheFlyingRat's PWA-ify extension",
+    "icons":[{
+        "src":"https://raw.githubusercontent.com/TheFlyingRat/cdn/master/assets/files/192x192.jpg",
+        "sizes":"192x192",
+        "type":"image/jpg"
+        },
+        {
+        "src":"https://raw.githubusercontent.com/TheFlyingRat/cdn/master/assets/files/512x512.jpg",
+        "sizes":"512x512",
+        "type":"image/jpg"
+    }],
+    "start_url": "/"
+}
