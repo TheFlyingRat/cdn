@@ -5,6 +5,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Browser compatibility Fail</title>
         <script src="https://cdn.theflyingrat.com/assets/js/cookie.js"></script>
+        <script>
+            if (getCookie("compatibility_check") == "bypass") {
+                window.history.back();
+            };
+
+            function setCookieAndGoBack() {
+                setCookie("compatibility_check", "bypass", 1);
+                window.history.back();
+            }
+        </script>
     </head>
     <body>
         <h1>Your browser appeared to fail a compatibility check</h1>
@@ -26,7 +36,7 @@
                 Chrome</a>. However, Mozilla's Firefox is another great option</p>
         <p><strong>I feel like my browser is good enough!</strong> If you believe you saw this page in error, please shoot
             me an email at <a href="mailto:theflyingrat@theflyingrat.com">theflyingrat@theflyingrat.com</a></p>
-        <p><strong>Ok, I don't care. Show me the page anyway!</strong> Sure! <a href="javascript:window.history.back()">Go
+        <p><strong>Ok, I don't care. Show me the page anyway!</strong> Sure! <a href="javascript:setCookieAndGoBack()">Go
                 back...</a></p>
     </body>
 </html>
